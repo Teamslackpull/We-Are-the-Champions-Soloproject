@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@300;800&family=Josefin+Sans:wght@500&family=Karla:wght@800&family=Zen+Kaku+Gothic+New:wght@900&display=swap');
+
+body {
+    text-align: center;
+    background: wheat;
+    height: auto;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    padding-top: 30px;
+    width: 150px
+}
+
+span {
+    border-bottom: 4px solid white;
+}
+
+#Second-Title {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.Container {
+     background-image: url("Assets/6f69e106-0402-4c99-b2ca-4d1cc8ae490e.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     overflow: scroll;
+     margin: 0 auto;
+     max-width: 390px;
+     padding-bottom: 50px;
+}
+
+#Error {
+    font-family: Inter,sans-serif;
+
+}
+
+.From-TO {
+    padding: 0;
+    font-size: 16px;
+    font-family: agbalumo, sans-serif;
+    text-align: left;
+}
+
+#ItemValueJs {
+    padding: 0;
+    font-family: Zen Kaku Gothic New,sans-serif;
+    font-weight: normal;
+}
+
+.TextCardsJS {
+    padding: 14px 40px 17px;
+    word-wrap: break-word;
+}
+
+.TextBox{
+    border: 3px solid whitesmoke;
+    font-family: Inter,sans-serif;
+    color: white;
+    max-width: 310px;
+    height: 100px;
+}
+
+/*Typography*/
+
+.Title {
+    text-shadow: black 1px 0 2px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.InputBoxes, .TextBox{
+    border-radius: 8px;
+    background: transparent;
+}
+
+.Second-Title,.Title{
+    text-align: center;
+
+}
+
+.Second-Title {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 12px;
+    text-align: left;
+}
+
+.InputBoxes{
+    color: white;
+    justify-content: center;
+    height: 40px;
+    width:150px;
+    border: 3px solid white;
+    background-color: transparent;
+    text-align: center;
+    margin: 10px 5px;
+}
+
+
+::placeholder {
+    padding: 10px;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    font-family: Verdana;
+
+}
+
+.input-Div,
+.BTN-div,
+.bottom-items,
+ul
+{
+    display: flex;
+
+}
+
+.input-Div,
+.BTN-div,
+ul {
+
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Buttons and button div */
+
+.BTN-div {
+    padding-top: 10px;
+}
+
+.PublishBtn, .LikeBtn{
+    cursor: pointer;
+}
+
+.PublishBtn {
+    color: white;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+/*Blue Heart Like btn */
+.LikeBtn {
+    border: none;
+    background: none;
+    font-weight: normal;
+}
+
+
+.LikeBtn ,
+.PublishBtn,
+.InputBoxes,
+.BTN-div ,
+.InputBoxes,
+.TextBox,
+ul li {
+
+    flex-shrink: 0;
+
+}
+
+/*List items + message cards */
+
+ul li {
+    font-size: 16px;
+    max-width: 317px;
+    min-width: 200px;
+    background-color: #ffff;
+}
+
+ul  {
+    margin: 0 auto;
+    color: whitesmoke;
+    list-style: none;
+    gap: 10px;
+}
+
+li {
+    padding: 10px;
+
+    color: #000000;
+}
+
+/*bottom card items in javascript*/
+.bottom-items{
+    justify-content: space-between;
+}
